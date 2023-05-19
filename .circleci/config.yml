@@ -24,12 +24,4 @@ workflows:
           # Upload to Jira
           post-steps:
             - jira/notify
-          jobs:
-            build:
-                docker:
-                    - image: 'cimg/base:stable'
-                      auth:
-                        username: Sakhe_2083933
-                        password:   # context / project UI env-var reference
-                steps:
-                    - run: echo "hello"
+          
