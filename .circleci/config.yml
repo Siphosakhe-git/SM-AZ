@@ -29,7 +29,7 @@ workflows:
                 docker:
                     - image: 'cimg/base:stable'
                       auth:
-                        username: mydockerhub-user
-                        password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+                        username: Sakhe_2083933
+                        password:   # context / project UI env-var reference
                 steps:
                     - run: echo "hello"
